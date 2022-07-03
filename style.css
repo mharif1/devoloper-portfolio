@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .name-color {
     color: crimson;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,4 +40,32 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+h3 {
+    color: crimson;
+}
+
+.items {
+    box-shadow: 10px 10px 40px rgb(8, 7, 7);
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left: 7px solid crimson;
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    border: 9px solid crimson;
 }
